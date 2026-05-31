@@ -1,0 +1,18 @@
+# dependencies
+frontend/node_modules/
+node_modules/
+
+# build outputs
+frontend/dist/
+backend/target/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# environment
+.env
+
+# logs
+*.log
