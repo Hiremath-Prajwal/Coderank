@@ -1,22 +1,17 @@
-# Dependencies
+# dependencies
 node_modules/
 frontend/node_modules/
 
-# Build outputs
+# build output
 frontend/dist/
 backend/target/
 
-# Logs
-*.log
-
-# Environment files
-.env
-
-# IDE files
+# IDE
 .vscode/
 .idea/
-*.iml
 
-# OS files
-.DS_Store
-Thumbs.db
+# environment
+.env
+
+# logs
+*.log
