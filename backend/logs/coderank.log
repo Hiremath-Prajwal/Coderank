@@ -1,0 +1,70 @@
+2026-05-29 00:01:43 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-05-29 00:01:43 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29 00:01:43 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-29 00:01:43 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-29 00:01:54 [main] INFO  com.coderank.CoderankApplication - Starting CoderankApplication using Java 21.0.1 with PID 14264 (D:\Capstone Backend\coderank backend\backend\target\classes started by hirem in D:\Capstone Backend\coderank backend\backend)
+2026-05-29 00:01:54 [main] INFO  com.coderank.CoderankApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-29 00:01:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29 00:01:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2026-05-29 00:01:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-29 00:01:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-29 00:01:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-29 00:01:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-29 00:01:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms
+2026-05-29 00:01:55 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29 00:01:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-05-29 00:01:55 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-29 00:01:56 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29 00:01:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-29 00:01:56 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@709d86a2
+2026-05-29 00:01:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-29 00:01:56 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-29 00:01:57 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29 00:01:57 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29 00:01:57 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29 00:01:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-05-29 00:01:57 [main] INFO  com.coderank.CoderankApplication - Started CoderankApplication in 3.585 seconds (process running for 4.054)
+2026-05-29 00:02:05 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-29 00:02:05 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-29 00:02:05 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-05-29 00:02:05 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/execute' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-05-29 00:02:06 [http-nio-8080-exec-1] INFO  c.coderank.service.ExecutionService - Executing python code for user: Varun
+2026-05-29 00:02:06 [http-nio-8080-exec-1] INFO  c.c.executor.AbstractDockerExecutor - Created execution dir: \tmp\coderank\exec-5791e53a14346409701767251978
+2026-05-29 00:02:06 [http-nio-8080-exec-1] INFO  c.c.executor.AbstractDockerExecutor - Starting python:3.11-alpine execution
+2026-05-29 00:02:06 [http-nio-8080-exec-1] INFO  c.c.executor.AbstractDockerExecutor - INPUT FROM REQUEST: '10
+20'
+2026-05-29 00:02:06 [http-nio-8080-exec-1] INFO  c.c.executor.AbstractDockerExecutor - Execution finished. Exit code: 0
+2026-05-29 00:02:06 [http-nio-8080-exec-1] INFO  c.c.executor.AbstractDockerExecutor - Temp dir destroyed
+2026-05-29 00:02:06 [http-nio-8080-exec-1] INFO  c.coderank.service.ExecutionService - Execution saved. Status: SUCCESS, Time: 0.61s
+2026-05-29 00:02:16 [http-nio-8080-exec-4] INFO  c.coderank.service.ExecutionService - Executing python code for user: Varun
+2026-05-29 00:02:16 [http-nio-8080-exec-4] INFO  c.c.executor.AbstractDockerExecutor - Created execution dir: \tmp\coderank\exec-ec2e492e13107737737112719660
+2026-05-29 00:02:16 [http-nio-8080-exec-4] INFO  c.c.executor.AbstractDockerExecutor - Starting python:3.11-alpine execution
+2026-05-29 00:02:16 [http-nio-8080-exec-4] INFO  c.c.executor.AbstractDockerExecutor - INPUT FROM REQUEST: '10
+20'
+2026-05-29 00:02:16 [http-nio-8080-exec-4] INFO  c.c.executor.AbstractDockerExecutor - Execution finished. Exit code: 0
+2026-05-29 00:02:16 [http-nio-8080-exec-4] INFO  c.c.executor.AbstractDockerExecutor - Temp dir destroyed
+2026-05-29 00:02:16 [http-nio-8080-exec-4] INFO  c.coderank.service.ExecutionService - Execution saved. Status: SUCCESS, Time: 0.39s
+2026-05-29 00:02:27 [http-nio-8080-exec-5] INFO  c.coderank.service.ExecutionService - Executing python code for user: Varun
+2026-05-29 00:02:27 [http-nio-8080-exec-5] INFO  c.c.executor.AbstractDockerExecutor - Created execution dir: \tmp\coderank\exec-6976f88d13638156800125807327
+2026-05-29 00:02:27 [http-nio-8080-exec-5] INFO  c.c.executor.AbstractDockerExecutor - Starting python:3.11-alpine execution
+2026-05-29 00:02:27 [http-nio-8080-exec-5] INFO  c.c.executor.AbstractDockerExecutor - INPUT FROM REQUEST: '10 20
+'
+2026-05-29 00:02:28 [http-nio-8080-exec-5] INFO  c.c.executor.AbstractDockerExecutor - Execution finished. Exit code: 1
+2026-05-29 00:02:28 [http-nio-8080-exec-5] INFO  c.c.executor.AbstractDockerExecutor - Temp dir destroyed
+2026-05-29 00:02:28 [http-nio-8080-exec-5] INFO  c.coderank.service.ExecutionService - Execution saved. Status: COMPILATION_ERROR, Time: 0.38s
+2026-05-29 00:04:11 [http-nio-8080-exec-2] INFO  c.coderank.service.ExecutionService - Executing java code for user: Varun
+2026-05-29 00:04:11 [http-nio-8080-exec-2] INFO  c.c.executor.AbstractDockerExecutor - Created execution dir: \tmp\coderank\exec-67e397a611225416898292135642
+2026-05-29 00:04:11 [http-nio-8080-exec-2] INFO  c.c.executor.AbstractDockerExecutor - Starting eclipse-temurin:17-alpine execution
+2026-05-29 00:04:11 [http-nio-8080-exec-2] INFO  c.c.executor.AbstractDockerExecutor - INPUT FROM REQUEST: '10 20
+'
+2026-05-29 00:04:14 [http-nio-8080-exec-2] INFO  c.c.executor.AbstractDockerExecutor - Execution finished. Exit code: 0
+2026-05-29 00:04:14 [http-nio-8080-exec-2] INFO  c.c.executor.AbstractDockerExecutor - Temp dir destroyed
+2026-05-29 00:04:15 [http-nio-8080-exec-2] INFO  c.coderank.service.ExecutionService - Execution saved. Status: SUCCESS, Time: 3.78s
+2026-05-29 00:05:51 [http-nio-8080-exec-8] INFO  c.coderank.service.ExecutionService - Executing PYTHON code for user: Arun
+2026-05-29 00:05:51 [http-nio-8080-exec-8] INFO  c.c.executor.AbstractDockerExecutor - Created execution dir: \tmp\coderank\exec-a71c5e1013256796720643536328
+2026-05-29 00:05:51 [http-nio-8080-exec-8] INFO  c.c.executor.AbstractDockerExecutor - Starting python:3.11-alpine execution
+2026-05-29 00:05:51 [http-nio-8080-exec-8] INFO  c.c.executor.AbstractDockerExecutor - INPUT FROM REQUEST: '10
+20'
+2026-05-29 00:05:52 [http-nio-8080-exec-8] INFO  c.c.executor.AbstractDockerExecutor - Execution finished. Exit code: 0
+2026-05-29 00:05:52 [http-nio-8080-exec-8] INFO  c.c.executor.AbstractDockerExecutor - Temp dir destroyed
+2026-05-29 00:05:52 [http-nio-8080-exec-8] INFO  c.coderank.service.ExecutionService - Execution saved. Status: SUCCESS, Time: 0.53s
